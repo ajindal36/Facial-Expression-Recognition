@@ -1,7 +1,7 @@
-#**Facial Expression Recognition**#
+#**Facial Expression Recognition**
 It is made using CNN, Tensor flow, haar cascade, Numpy and cv2
 
-##**REQUIREMENTS**##
+##**REQUIREMENTS**
 
 Numpy==1.15.4
 
@@ -11,7 +11,7 @@ Tensorflow==1.12.0
 
 Tflearn==0.3.2
 
-##**USAGE**##
+##**USAGE**
 
 If you want to train the model yourself you can get the orignal fer model from https://www.kaggle.com/deadskull7/fer2013.
 
