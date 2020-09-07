@@ -1,5 +1,5 @@
 # Facial Expression Recognition
-It is made using CNN, Tensor flow, haar cascade, Numpy and cv2
+It is made using CNN,cascade classifier, Numpy and cv2
 
 ## REQUIREMENTS
 
