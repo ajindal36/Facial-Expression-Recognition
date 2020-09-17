@@ -1,20 +1,21 @@
 # Facial Expression Recognition
-It is made using CNN,cascade classifier, Numpy and cv2
+It is made using keras, Tensorflow, Haarcascade classifier, Numpy and opencv-python
 
 ## REQUIREMENTS
 
-1. Numpy==1.15.4
-2. Ppencv-python==3.4.1
-3. Tensorflow==1.12.0
-4. Tflearn==0.3.2
+1. Numpy
+2. Opencv-python
+3. Tensorflow
+4. Keras [Sequential, Dense, Dropout, Activation, Flatten, Conv2D, BatchNormalization, MaxPooling2D]
+5. Kaggle Dataset : https://www.mediafire.com/folder/trbjv7bysiycl/challenges-in-representation-learning-facial-expression-recognition-challenge
+6. HaarCascade file is available here.
 
 ## USAGE
 
-If you want to train the model yourself you can get the orignal fer model from https://www.kaggle.com/deadskull7/fer2013.
-
-If you want to use my pre-trained model you can get it from https://drive.google.com/file/d/1Htb-GJ-o1NI__0zlJJhFnCmqBfjhWVGh/view.
-
-The pre-trained zip folder will contain 3 files which you need to extract to the main folder containing the uploaded files.
-model_1_alim.tflearn.data-00000-of-00001
-model_1_alim.tflearn.index
-model_1_alim.tflearn.meta
+We preprocess the data in the dataset file into train and test data.
+x-values are picture pixels.
+y-values are emotions as output.
+We create  a sequential model in keras using CNN and create 3 layers.
+You can use as many layers as you want before fully connecting the model.
+We use opencv to read real-time images from our device.
+I used 30 epoches[3 hours] which gave me an accuracy of 64%. You van use more epoches to train the data .
